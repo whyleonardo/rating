@@ -3,7 +3,9 @@ import '../button.css'
 interface ButtonProps {
   type?: string;
   title?: any;
-  className?: string
+  className?: string;
+  onClick?: any;
+  onFeedbackSent?: any;
 }
 
 export function Button(props: ButtonProps) {

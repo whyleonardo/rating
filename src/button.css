@@ -1,3 +1,8 @@
+button {
+  transition: 0.2s;
+}
+
+
 .buttons button {
   border-radius: 90px;
   height: 2.5rem;
@@ -17,6 +22,16 @@
   filter: brightness(1.1);
 }
 
+.buttons button:active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.buttons button:focus {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
 button.submit {
   margin-top: 2rem;
   background-color: var(--orange);
@@ -33,8 +48,22 @@ button.submit {
 
   color: var(--white);
   letter-spacing: 2px;
+
+  transition: 0.2s;
 }
+
 
 button.submit:hover {
   filter: brightness(1.1);
 }
+
+button.submit:active {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+button.submit:focus {
+  background-color: var(--white);
+  color: var(--orange);
+}
+

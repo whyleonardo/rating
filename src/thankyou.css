@@ -1,0 +1,30 @@
+.rating {
+    display: flex;
+    align-items: center;
+}
+.rating-message {
+  background-color: var(--dark-blue);
+  filter: brightness(1.2);
+  
+  margin-top: 1rem;
+
+  padding: 0.3rem 0.5rem;
+  border-radius: 90px;
+
+  color: var(--orange);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  margin-top: 0.5rem;
+}
+
+.title {
+  align-self: center;
+}
