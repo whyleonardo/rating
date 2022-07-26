@@ -2,7 +2,6 @@ button {
   transition: 0.2s;
 }
 
-
 .buttons button {
   border-radius: 90px;
   height: 2.5rem;
@@ -52,7 +51,6 @@ button.submit {
   transition: 0.2s;
 }
 
-
 button.submit:hover {
   filter: brightness(1.1);
 }
@@ -66,4 +64,3 @@ button.submit:focus {
   background-color: var(--white);
   color: var(--orange);
 }
-
